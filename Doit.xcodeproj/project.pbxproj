@@ -13,6 +13,7 @@
 		220D05451F6AE5110072B299 /* Doit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 220D05431F6AE5110072B299 /* Doit.xcdatamodeld */; };
 		220D05471F6AE5110072B299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220D05461F6AE5110072B299 /* Assets.xcassets */; };
 		220D054A1F6AE5110072B299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220D05481F6AE5110072B299 /* LaunchScreen.storyboard */; };
+		222063FE1F6AEFA500462259 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222063FD1F6AEFA500462259 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		220D05461F6AE5110072B299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220D05491F6AE5110072B299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220D054B1F6AE5110072B299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222063FD1F6AEFA500462259 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				220D053C1F6AE5110072B299 /* AppDelegate.swift */,
+				222063FD1F6AEFA500462259 /* Task.swift */,
 				220D053E1F6AE5110072B299 /* ViewController.swift */,
 				220D05401F6AE5110072B299 /* Main.storyboard */,
 				220D05461F6AE5110072B299 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222063FE1F6AEFA500462259 /* Task.swift in Sources */,
 				220D053F1F6AE5110072B299 /* ViewController.swift in Sources */,
 				220D053D1F6AE5110072B299 /* AppDelegate.swift in Sources */,
 				220D05451F6AE5110072B299 /* Doit.xcdatamodeld in Sources */,
@@ -305,6 +309,7 @@
 				220D05501F6AE5110072B299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
