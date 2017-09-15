@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="831" y="-104"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Task View Controller-->
         <scene sceneID="k1L-xw-43c">
             <objects>
-                <viewController id="PYs-K1-n4k" sceneMemberID="viewController">
+                <viewController id="PYs-K1-n4k" customClass="CreateTaskViewController" customModule="Doit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="957-bI-Aah"/>
                         <viewControllerLayoutGuide type="bottom" id="VLo-vm-UCa"/>
