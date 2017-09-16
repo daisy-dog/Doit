@@ -14,6 +14,8 @@ class CreateTaskViewController: UIViewController {
 
     @IBOutlet weak var importantSwitch: UISwitch!
 
+    var previousVC = ViewController()
+    
 
     
     override func viewDidLoad() {

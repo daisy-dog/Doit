@@ -1,0 +1,4 @@
+in CreateTaskView
+task.name = taskNameTextField.text!
+
+fatal error: unexpectedly found nil while unwrapping an Optional value
